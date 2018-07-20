@@ -1,0 +1,10 @@
+
+CREATE TABLE comment (
+	commentId BINARY(16) NOT NULL,
+	commentDateTime TIMESTAMP(2018-7-20 8:41:14.6),
+	commentText VARCHAR(128),
+);
+
+INSERT INTO comment(commentId, commentDateTime, commentText)
+VALUES (UNHEX("83a9d704460c47b28e25d905b9870dbb", Y-m-d H:i:s.u, "randon stuff that i think should go here"));
+
